@@ -1,0 +1,77 @@
+/* Questions.css */
+
+.container {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.navigation a {
+    padding-right: 8px;
+    color: teal;
+    text-decoration: none;
+}
+
+.navigation p {
+    margin: 0;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.table {
+    width: 100%;
+    margin-left: 56px;
+    margin-right: 56px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table th {
+    background-color: #a74ac7;
+    color: #fff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e0ffff;
+}
+
+.table tr.done {
+    background-color: #40e0d0;
+}
+
+.table td img {
+    width: 20px;
+    height: 20px;
+}
+
+.table input[type="checkbox"] {
+    transform: scale(1.2);
+}
